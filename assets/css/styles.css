@@ -232,7 +232,7 @@ p {
   overflow: hidden;
 }
 .skillset .level-title {
-  font-size: 14px;
+  font-size: 12px;
   margin-top: 0;
   margin-bottom: 12px;
 }
@@ -278,17 +278,10 @@ p {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .skillset .level-title {
-    display: inline-block;
-    float: left;
-    width: 30%;
     margin-bottom: 0;
   }
   .skillset .level-bar {
-    display: inline-block;
-    width: 70%;
-    float: left;
-    position: relative;
-    top: 1px;
+    width: 100%;
   }
 }
 /* Large devices (large desktops, 1200px and up) */
