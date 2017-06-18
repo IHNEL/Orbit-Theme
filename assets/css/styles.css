@@ -157,6 +157,17 @@ p {
   padding: 60px;
   padding-right: 300px;
 }
+.main-wrapper .highlights_title{
+  color: #3F4650;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.main-wrapper .highlights_detail{
+  margin-top: 8px;
+  margin-bottom: 0;
+}
 .main-wrapper .section-title {
   text-transform: uppercase;
   font-size: 20px;
@@ -239,6 +250,11 @@ p {
 .skillset .level-bar {
   height: 12px;
   background: #7bc2d3;
+}
+.details{
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 12px;
 }
 .skillset .level-bar-inner {
   height: 12px;
