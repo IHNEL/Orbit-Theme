@@ -236,7 +236,7 @@ p {
 }
 
 .main-wrapper .section {
-    margin-bottom: 60px;
+    margin-bottom: 10px;
 }
 
 .main-wrapper .experiences-section .item {
@@ -280,7 +280,7 @@ p {
     margin-bottom: 30px;
 }
 
-.main-wrapper .projects-section .item {
+.main-wrapper .projects-section .item{
     margin-bottom: 15px;
 }
 
@@ -398,6 +398,11 @@ p {
     .skillset .level-bar-inner {
         height: 12px;
         background: #808080 !important;
+    }
+}
+@media print {
+    .item{
+        page-break-inside: avoid;
     }
 }
 
