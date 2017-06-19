@@ -135,7 +135,7 @@ p {
     margin-bottom: 5px;
 }
 
-.sidebar-wrapper .education-container .item {
+.sidebar-wrapper .education-container   .item {
     margin-bottom: 15px;
 }
 
@@ -350,6 +350,10 @@ p {
 
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
+
+.live_link{
+    visibility: hidden;
+}
 @media (min-width: 992px) {
     .skillset .level-title {
         margin-bottom: 0;
@@ -407,5 +411,10 @@ p {
     }
 }
 
+@media print {
+    .live_link{
+        visibility: visible !important;
+    }
+}
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
