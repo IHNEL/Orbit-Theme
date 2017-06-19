@@ -27,17 +27,6 @@ h6 {
     font-weight: 700;
 }
 
-/*Dont print the url*/
-@media print {
-    a[href]:after {
-        content: none !important;
-    }
-
-    img[src]:after {
-        content: none !important;
-    }
-}
-
 a {
     color: #2d7788;
     -webkit-transition: all 0.4s ease-in-out;
@@ -69,16 +58,9 @@ p {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-@media print {
-    .sidebar-wrapper {
-        background: #42A8C0 !important;
-        -webkit-print-color-adjust: exact;
-    }
-}
-
 .sidebar-wrapper {
     background: #42A8C0 !important;
-    position: absolute;
+    position: absolute !important;
     right: 0;
     width: 240px;
     height: 100%;
@@ -205,7 +187,7 @@ p {
 .main-wrapper {
     background: #fff;
     padding: 60px;
-    padding-right: 300px;
+    padding-right: 300px !important;
 }
 
 .main-wrapper .highlights_title {
@@ -375,6 +357,47 @@ p {
 
     .skillset .level-bar {
         width: 100%;
+    }
+}
+
+/*Dont print the url*/
+@media print {
+    a[href]:after {
+        content: none !important;
+    }
+
+    img[src]:after {
+        content: none !important;
+    }
+}
+
+/*Print the side bar background*/
+@media print {
+    .sidebar-wrapper {
+        background: #f2f2f2 !important;
+        color: #fff !important;
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+@media print {
+    .sidebar-wrapper .profile-container {
+        background: #cccccc !important;
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+@media print {
+    .skillset .level-bar {
+        height: 12px;
+        background: #cccccc !important;
+    }
+}
+
+@media print {
+    .skillset .level-bar-inner {
+        height: 12px;
+        background: #808080 !important;
     }
 }
 
