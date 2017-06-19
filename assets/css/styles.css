@@ -420,6 +420,9 @@ p {
     .live_link{
         visibility: visible !important;
     }
+    .download_link{
+        visibility: hidden;
+    }
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
