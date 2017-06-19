@@ -280,7 +280,7 @@ p {
     margin-bottom: 30px;
 }
 
-.main-wrapper .projects-section .item{
+.main-wrapper .projects-section .item {
     margin-bottom: 15px;
 }
 
@@ -400,8 +400,9 @@ p {
         background: #808080 !important;
     }
 }
+
 @media print {
-    .item{
+    .item, .projects-section {
         page-break-inside: avoid;
     }
 }
