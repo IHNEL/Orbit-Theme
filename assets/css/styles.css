@@ -279,7 +279,9 @@ p {
     margin-top: 0;
     margin-bottom: 5px;
 }
-
+.projects-section{
+    margin-top: 30px;
+}
 .main-wrapper .projects-section .intro {
     margin-bottom: 30px;
 }
@@ -416,7 +418,7 @@ p {
 
 @media print {
     .item, .projects-section {
-        /*page-break-inside: avoid;*/
+        page-break-inside: avoid;
     }
 }
 
